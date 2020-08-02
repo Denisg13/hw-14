@@ -1,0 +1,3 @@
+---
+- name: Copy hello-world.txt file to /tmp/test1/
+  copy: src=hello-world.txt dest=/tmp/test1/hello-world.txt

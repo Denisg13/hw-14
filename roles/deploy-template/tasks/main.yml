@@ -1,0 +1,3 @@
+---
+- name: Deploy template to /tmp/test2/
+  template: src=template.j2 dest=/tmp/test2/template.txt

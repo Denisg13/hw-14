@@ -1,0 +1,6 @@
+---
+- name: Install Zip
+  apt: name=zip state=present
+
+- name: Install Vim
+  apt: name=vim state=present

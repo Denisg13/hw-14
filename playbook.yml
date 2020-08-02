@@ -1,0 +1,8 @@
+---
+- hosts: servers
+  sudo: yes
+  gather_facts: no
+  roles:
+    - common # Installs vim & zip
+    - copy-file # Copy hello-world.txt file to /tmp/test1
+    - deploy-template # Deploys a template to /tmp/test2
